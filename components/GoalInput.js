@@ -23,6 +23,10 @@ function GoalInput(props) {
   return (
     <Modal visible={props.visible} animationType="slide">
       <View style={styles.inputContainer}>
+        <Image
+          style={styles.image}
+          source={require("../assets/Images/goal.jpg")}
+        />
         <TextInput
           style={styles.textInput}
           placeholder="Your course goal!"
